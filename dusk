@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 ## @file dusk
-## Queries sunrise-sunset.org for sunset time and returns result as local time.
+## Queries sunrise-sunset.org for civil dusk time and returns result as local time.
 ## @author Ralf Quast
 ## @date 2021
 ## @copyright MIT GPL
@@ -9,4 +9,4 @@ set -e
 LAT=${1}
 LNG=${2}
 
-curl -m 60 -s "http://api.sunrise-sunset.org/json?lat=${LAT}&lng=${LNG}" | python -c "import sys, json; from datetime import *; from dateutil import tz; import pytz;  print(datetime.strftime(datetime.strptime(json.load(sys.stdin)['results']['sunset'], '%I:%M:%S %p').replace(tzinfo=pytz.UTC).astimezone(tz.tzlocal()), '%H:%M:%S'))"
+curl -m 60 -s "http://api.sunrise-sunset.org/json?lat=${LAT}&lng=${LNG}" | python -c "import sys, json; from datetime import *; from dateutil import tz; import pytz;  print(datetime.strftime(datetime.strptime(json.load(sys.stdin)['results']['civil_twilight_end'], '%I:%M:%S %p').replace(tzinfo=pytz.UTC).astimezone(tz.tzlocal()), '%H:%M:%S'))"
