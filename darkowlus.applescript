@@ -47,7 +47,6 @@ on idle
 			end tell
 			set darkened to false
 		end if
-		return (dusk - now) + 60 -- wait for dusk
 	else
 		if not darkened or not initialized then
 			set initialized to true
@@ -63,8 +62,8 @@ on idle
 			end tell
 			set darkened to true
 		end if
-		return 600 -- no matter if computer sleeps at night or when sunrise-sunset.org times are updated, simply wait 10 minutes
 	end if
+	return 600 -- no matter what, simply wait 10 minutes
 end idle
 
 on quit
