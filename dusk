@@ -3,7 +3,7 @@
 ## Queries sunrise-sunset.org for civil dusk time and returns result as local time.
 ## @author Ralf Quast
 ## @date 2021
-## @copyright MIT GPL
+## @copyright GPL
 set -e
 
 LAT=${1}
