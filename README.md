@@ -1,4 +1,4 @@
-![Graphical abstract](assets/img/darkowlus-desktop.png "Example macOS High Sierra desktop in the daytime and in the nighttime")
+![Graphical abstract](assets/img/darkowlus-ventura.png "Example macOS High Sierra desktop in the daytime and in the nighttime")
 
 Automatically darkens macOS appearance and desktop picture in the nighttime.
 Runs, e.g., on my Mac mini 2010 with macOS High Sierra.
