@@ -14,4 +14,4 @@ you created.
 # Thanks
 
 This software uses [sunrise-sunset.org](https://sunrise-sunset.org) API and
-the Night Owl from [macOS App icons](https://macosicons.com/).
+includes the Night Owl from [macOS App icons](https://macosicons.com/).
