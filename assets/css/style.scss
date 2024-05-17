@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 #main_content_wrap {
-  background: #444444;
+  background: #7f7f7f;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
@@ -18,7 +18,7 @@ img[title="Example macOS High Sierra desktop in the daytime and in the nightime"
   display: block;
   margin-left: auto;
   margin-right: auto;
-  min-height: 160px;
+  min-height: 120px;
   max-height: 320px;
   object-fit: scale-down;
 }
