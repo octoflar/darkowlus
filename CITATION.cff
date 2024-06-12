@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+authors:
+  - family-names: Quast
+    given-names: Ralf
+    orcid: "https://orcid.org/0000-0002-6857-6503"
+title: Darkowlus - darkens macOS appearance in the nighttime
+repository-code: "https://github.com/octoflar/darkowlus"
+url: https://octoflar.github.io/darkowlus/
+license: GPL-3.0
