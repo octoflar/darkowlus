@@ -1,10 +1,19 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
 cff-version: 1.2.0
-message: "If you use this software, please cite it using these metadata."
+title: Darkowlus - darkens macOS appearance in the nighttime
+message: >-
+  If you use this software, please cite it using these
+  metadata.
+type: software
 authors:
   - family-names: Quast
     given-names: Ralf
-    orcid: "https://orcid.org/0000-0002-6857-6503"
-title: Darkowlus - darkens macOS appearance in the nighttime
-repository-code: "https://github.com/octoflar/darkowlus"
-url: "https://octoflar.github.io/darkowlus"
+    orcid: 'https://orcid.org/0000-0002-6857-6503'
+repository-code: 'https://github.com/octoflar/darkowlus'
+url: 'https://octoflar.github.io/darkowlus'
+abstract: >-
+  Automatically darkens macOS appearance and desktop picture
+  in the nighttime.
 license: GPL-3.0
